@@ -18,3 +18,16 @@ You can install on a Ubuntu 16.04 64-bit server.  We provide [bbb-install.sh](ht
 For full technical documentation BigBlueButton -- including architecture, features, API, and GreenLight (the default front-end) -- see [http://docs.bigbluebutton.org/](http://docs.bigbluebutton.org/).
 
 BigBlueButton and the BigBlueButton Logo are trademarks of [BigBlueButton Inc](http://bigbluebutton.org) .
+
+---
+
+Tips
+
+○ 会議の録画を禁止する
+
+　→ /usr/share/bbb-web/WEB-INF/classes/bigbluebutton.properties
+ 
+　　* disableRecordingDefault=true
+  
+　　* allowStartStopRecording=false
+  
